@@ -8,7 +8,7 @@ def oxford_comma(array)
     str << item
     str << ", " if item != array.last
   end
-  ands = array.join(' and ')
+  str
 end
 
 # oxford_comma(["this", "that", "other"])
