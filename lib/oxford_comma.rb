@@ -5,7 +5,7 @@ def oxford_comma(array)
   puts "after shift, array has #{array.size} items"
   str = array.shift
   puts "before loop, array has #{array.size} items"
-  binding.pry
+  # binding.pry
   array.each do |item|
     str << " and" if item == array.last
     str << " #{item}"   # this messes up first item each time
@@ -13,5 +13,3 @@ def oxford_comma(array)
   end
   str
 end
-
-# oxford_comma(["this", "that", "other"])
