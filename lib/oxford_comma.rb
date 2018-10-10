@@ -2,7 +2,7 @@ require 'pry'
 
 def oxford_comma(array)
   return array.first if array.size == 1
-  puts "after shif, array has #{array.size} items"
+  puts "after shift, array has #{array.size} items"
   str = array.shift
   puts "before loop, array has #{array.size} items"
   binding.pry
