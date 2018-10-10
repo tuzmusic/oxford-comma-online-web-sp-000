@@ -6,7 +6,7 @@ def oxford_comma(array)
   array.each do |item|
     str << "and " if item == array.last
     str << item
-    str << ", " if item != array.last
+    str << ", " if array.sizt > 2 && item != array.last
   end
   str
 end
