@@ -3,7 +3,7 @@ require 'pry'
 def oxford_comma(array)
   ands = array.join(' and ')
   puts ands
-  binding.pry
+  # binding.pry
 
 end
 
