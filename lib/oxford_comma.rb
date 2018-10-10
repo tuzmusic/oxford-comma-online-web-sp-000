@@ -1,7 +1,7 @@
 require 'pry'
 
 def oxford_comma(array)
-  str = array[0]
+  str = array.shift
   return str if array.size == 1
   array.each do |item|
     str << " and" if item == array.last
